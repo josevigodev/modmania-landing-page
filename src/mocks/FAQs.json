@@ -1,0 +1,34 @@
+{
+  "FAQs": [
+    {
+      "id": 0,
+      "question": "What is MODMANIA?",
+      "answer": "MODMANIA is a custom console design brand that transforms your PlayStation or Xbox with personalized modifications, including colors, textures, lighting, and exclusive accesories."
+    },
+    {
+      "id": 1,
+      "question": "Are the mods just skins or full hardware changes?",
+      "answer": "We offer both! Choose between high-quality vinyl skins or full custom shell replacements, LED, lighting, and controller modifications."
+    },
+    {
+      "id": 2,
+      "question": "Will modding my console void the warranty?",
+      "answer": "Yes, in most cases, any physical modification may void your manufacturer warranty. We recommend only modding out-of-warranty consoles or doing it after the warranty expires."
+    },
+    {
+      "id": 3,
+      "question": "Can I send my own design or idea?",
+      "answer": "Absolutely. We support custom requests. Just upload your concept and our design team will work with you to bring it to life."
+    },
+    {
+      "id": 4,
+      "question": "Do you mod controllers as well?",
+      "answer": "Yes! We customize controllers with new shells, RGB lighting, button remapping, and paint finishes that match your console."
+    },
+    {
+      "id": 5,
+      "question": "How long does the modding procces take?",
+      "answer": "Depending on the complexity of your request, it typically takes 5-10 bussiness days from the moment we receive your console."
+    }
+  ]
+}

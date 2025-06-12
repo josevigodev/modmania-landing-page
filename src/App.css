@@ -6,7 +6,7 @@
   --color-gradient-blue: #00ddff;
   --color-gradient-blue-opacity: #00ddff99;
   --color-title-main: #e0f7ff;
-  --color-subtitle: #b0b0b8;
+  --color-subtitle: #d0d0d8;
   --color-detail: #ff66cc;
   --color-box-background: #0589;
 
@@ -36,36 +36,160 @@
 
 #header_navbar {
   animation: reduce-width forwards;
-  animation-timeline: scroll(root block);
-  animation-range-end: cover 20%;
+  animation-timeline: view();
+  animation-range: cover 17% cover 18%;
+
+  &::before {
+    content: '';
+    top: -25%;
+    left: -15%;
+    margin: auto;
+    position: absolute;
+    width: 130%;
+    height: 150%;
+    background-color: #000b;
+    opacity: 0;
+    animation: reduce-width-fit forwards;
+    animation-timeline: view();
+    animation-range: cover 17% cover 18%;
+    z-index: -1;
+  }
 }
 
-#hero-subtitle {
+/* #hero-subtitle {
   animation: fade-scale-down forwards;
-  animation-timeline: scroll(root block);
-  animation-range: cover 10% cover 80%;
+  animation-timeline: view();
+  animation-range: contain 70% cover 100%;
 }
 
 #hero-button {
   animation: fade-down forwards;
-  animation-timeline: scroll(root block);
-  animation-range: cover 1% cover 80%;
-}
-
-#hero-title {
-  animation: blink 2s both;
+  animation-timeline: view();
+  animation-range: contain 52% cover 100%;
 }
 
 #hero-title-container {
   animation: fade-up forwards;
-  animation-timeline: scroll(root block);
-  animation-range: cover 1% cover 60%;
-}
+  animation-timeline: view();
+  animation-range: contain 90% cover 100%;
+} */
 
+#hero-title {
+  animation: blink 2s both;
+}
+/* 
 #hero-img {
   animation: fade-scale-up forwards;
   animation-timeline: scroll(root block);
-  animation-range: contain 10% cover 90%;
+  animation-range: contain 1% cover 90%;
+} */
+
+#links-container {
+  opacity: 1;
+  transition: opacity 0.3s ease, display 0.3s ease allow-discrete;
+
+  @starting-style {
+    opacity: 0;
+  }
+}
+
+/* #phrase-h3,
+#phrase-h3 + p {
+  transform: translateY(70px);
+  animation: slide-up both;
+  animation-timeline: view();
+  animation-range: contain 15% cover 30%;
+}
+
+#phrase-h3 + p {
+  animation-range: contain 15% cover 30%;
+}
+
+#cards {
+  animation: slide-up both;
+  animation-timeline: view();
+  animation-range-end: cover 60%;
+} */
+
+#reviews-r-1 {
+  animation: run-left 20s linear infinite;
+}
+
+#reviews-r-2 {
+  animation: run-left 20s linear infinite reverse;
+}
+
+.faq-answer {
+  transition: max-height 0.4s, padding-bottom 0.7s;
+
+  &.open-answer {
+    transition: max-height 0.7s, padding-bottom 0.4s;
+    max-height: 300px;
+    padding-bottom: 16px;
+  }
+}
+
+.faq-question::before {
+  content: '^';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transform: rotateX(180deg);
+  transition: transform 0.5s ease;
+}
+
+.rotate-before::before {
+  transform: rotateX(360deg);
+}
+
+@keyframes run-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #links {
+    animation: slide-left 0.5s ease both;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(288px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(288px);
+    opacity: 0;
+  }
 }
 
 @keyframes fade-scale-down {
@@ -79,21 +203,22 @@
 @keyframes fade-scale-up {
   to {
     scale: 1.5;
-    transform: translateY(30px);
+    transform: translateY(-80px);
   }
 }
 
 @keyframes fade-down {
   to {
     filter: blur(10px);
-    transform: translateY(100px);
+    transform: translateY(400px);
+    opacity: 0;
   }
 }
 
 @keyframes fade-up {
   to {
     filter: blur(10px);
-    transform: translateY(-100px);
+    transform: translateY(-140px);
   }
 }
 
@@ -137,28 +262,31 @@
 @keyframes reduce-width {
   0% {
     width: 100%;
-    border: 1px solid transparent;
-  }
-
-  30% {
-    transform: translateY(15px);
-    border: 1px solid transparent;
   }
 
   90% {
-    transform: translateY(15px);
     width: 90%;
     border-radius: 100px;
-    border: 1px solid #fff5;
   }
 
   100% {
-    transform: translateY(15px);
     width: 90%;
     border-radius: 100px;
-    border: 1px solid #fff5;
     backdrop-filter: blur(8px);
-    background-color: #0006;
+    background-color: #0002;
     padding-inline: 30px;
+  }
+}
+
+@keyframes reduce-width-fit {
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    border: 1px solid #fff5;
+    border-radius: 100px;
+    background-color: transparent;
   }
 }
