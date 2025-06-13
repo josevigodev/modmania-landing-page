@@ -31,7 +31,7 @@ function App() {
       <div className='fixed top-0 left-0 w-full h-dvh blur-3xl brightness-50 pointer-events-none z-0'>
         <img
           className='object-cover object-center w-full h-full'
-          src='/images/background.png'
+          src='./assets/images/background.png'
           alt=''
         />
       </div>
