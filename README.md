@@ -1,12 +1,29 @@
-# React + Vite
+# 🎮 ModMania – Custom Console Modding Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_ModMania_ is a modern and visually immersive landing page for a fictional company that specializes in console modding (PS5, Xbox Series X/S). Built with performance and interaction in mind, this project leverages smooth scroll animations, stylish visual elements, and component-based architecture using _React_ and _GSAP_.
 
-Currently, two official plugins are available:
+📸 Previews
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="./src/assets/desktop.png" width="500"/>
+<img src="./src/assets/mobile.png" width="200"/>
 
-## Expanding the ESLint configuration
+## 🖥 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- _React + Vite_ – Fast development and build tool with JSX support.
+- _TailwindCSS_ – Utility-first CSS framework for responsive design.
+- _GSAP + ScrollTrigger_ – Advanced scroll-based animations.
+- _Alpha Background PNG Assets_ – For immersive design elements with transparency.
+
+## 🎯 Features
+
+- 🔥 _Modern Visual Design_: Inspired by tech and gaming interfaces, with glowing colors.
+- 🚀 _Scroll-based Animations_: GSAP ScrollTrigger used for smooth entrance/exit animations as users scroll through sections. The scroll is also smoothed using GSAP’s ScrollSmoother for a refined feel.
+- 📱 _Fully Responsive_: Works across mobile, tablet, and desktop.
+- 🎨 _Dark Mode Aesthetic_: Clean layout with strong contrast and vivid accents.
+- 🧩 _Modular Architecture_: All logic and effects (including animations) are extracted into custom React hooks.
+
+🧾 License
+
+This project is for educational and portfolio use. All fictional content is created for design and development practice.
+
+> Designed & built by [Jose Vigo] – aspiring frontend developer passionate about web animation and modern UI.

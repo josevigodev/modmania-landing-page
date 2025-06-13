@@ -1,30 +1,19 @@
-import { useEffect } from 'react';
+import { useRef } from 'react';
 import { Card } from '../components/Card';
 import { cards } from '../mocks/cards.json';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/all';
-
-gsap.registerPlugin(ScrollTrigger);
+import { useCardsAnimation } from '../hooks/useCardsAnimation';
 
 export function CardsSection() {
-  useEffect(() => {
-    gsap.to('.cards', {
-      y: -128,
-      opacity: 1,
-      duration: 1,
-      scrollTrigger: {
-        trigger: '.cards',
-        start: '-200px center',
-        end: '-200px center',
-      },
-    });
-  }, []);
+  const containerRef = useRef(null);
+  useCardsAnimation(containerRef);
 
   return (
-    <section className='flex flex-col  items-center opacity-0 z-10 px-10 mt-40 gap-15 transform translate-y-32 cards'>
-      {cards.map((card, index) => (
-        <Card {...card} key={index} />
-      ))}
-    </section>
+    <div ref={containerRef}>
+      <section className='flex flex-col  items-center opacity-0 z-10 px-10 mt-40 gap-15 transform translate-y-32 cards'>
+        {cards.map((card, index) => (
+          <Card {...card} key={index} />
+        ))}
+      </section>
+    </div>
   );
 }
