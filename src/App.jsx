@@ -9,7 +9,7 @@ import gsap from 'gsap';
 import { ScrollSmoother } from 'gsap/all';
 import { BrandMarquee } from './sections/BrandMarquee';
 import { Footer } from './sections/Footer';
-import background from '/images/background.png';
+import background from '/modmania-landing-page/images/background.png';
 gsap.registerPlugin(ScrollSmoother);
 
 function useSmothScroll() {
