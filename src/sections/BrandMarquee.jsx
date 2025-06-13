@@ -6,7 +6,10 @@ export function BrandMarquee() {
   useMarqueeAnimation(containerRef);
 
   return (
-    <section ref={containerRef} className='relative mt-20 '>
+    <section
+      ref={containerRef}
+      className='relative mt-20 w-full overflow-hidden '
+    >
       <div className='marquee flex items-center gap-2'>
         <h3 className='text-9xl font-extrabold text-[#94a3b880]'>MODMANIA</h3>
         <h3 className='text-9xl font-extrabold text-[#94a3b880]'>MODMANIA</h3>

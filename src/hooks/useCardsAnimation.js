@@ -22,6 +22,7 @@ export function useCardsAnimation(containerRef) {
 
     }, containerRef);
 
+
     return () => {
       ctx.revert();
     };

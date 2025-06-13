@@ -19,6 +19,7 @@ function useSmothScroll() {
       content: '#smooth-content',
       smooth: 1.5,
       effects: true,
+      smoothTouch: 'true',
     });
   }, []);
 }
@@ -36,7 +37,7 @@ function App() {
         />
       </div>
       <NavBar />
-      <main id='smooth-wrapper'>
+      <main id='smooth-wrapper' className='overflow-x-hidden'>
         <div id='smooth-content'>
           <Hero></Hero>
           <CardsSection />

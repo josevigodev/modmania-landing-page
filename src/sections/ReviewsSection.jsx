@@ -8,7 +8,7 @@ export function ReviewsSection() {
   useReviewsAnimation(containerRef);
 
   return (
-    <section ref={containerRef} className='relative'>
+    <section ref={containerRef} className='relative w-full overflow-hidden'>
       <h3 className='text-center text-4xl pt-20 mb-20 md:text-6xl blur-2xl reviews-title'>
         The people... <br />
         they seem to love us!!!

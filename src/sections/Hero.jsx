@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       ref={containerRef}
-      className='z-10 mx-auto max-w-5xl px-3 flex flex-col items-center gap-8 md:mt-10'
+      className='z-10 mx-auto max-w-5xl w-full overflow-x-hidden px-3 flex flex-col items-center gap-8 md:mt-10'
     >
       <div>
         <h2

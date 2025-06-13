@@ -11,7 +11,7 @@ export function FaqSection() {
   return (
     <section
       ref={containerRef}
-      className='relative flex flex-col max-w-200 mx-auto mt-30 px-4 gap-4'
+      className='relative flex flex-col max-w-200 mx-auto mt-30 px-4 gap-4 w-full overflow-hidden'
     >
       <h3 className='text-center text-4xl mb-15 md:text-6xl faq-title'>
         Have any question in mind?
