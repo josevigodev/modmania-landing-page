@@ -5,7 +5,7 @@
       "firstSubtitle": "Once you hand in your setup, rest asure, you'll  be carrying something really amazing to home.",
       "secondSubtitle": "And we always keep our promises.",
       "order": true,
-      "image": "/images/ps5_h_theme.png",
+      "image": "/modmania-landing-page/images/ps5_h_theme.png",
       "alt": "Artistic ps5 controller picture."
     },
     {
@@ -13,7 +13,7 @@
       "firstSubtitle": "Still rocking that antique, vanilla look on your PlayStation or Xbox?",
       "secondSubtitle": "We've all been there.",
       "order": false,
-      "image": "/images/xbox_c_theme.png",
+      "image": "/modmania-landing-page/images/xbox_c_theme.png",
       "alt": "Artistic xbox console picture."
     },
     {
@@ -21,7 +21,7 @@
       "firstSubtitle": "You didn't find the perfect design for your setup? Don't even worry, we got you a whole mod customization lab.",
       "secondSubtitle": "Now perfection is up to you.",
       "order": true,
-      "image": "/images/ps5_c_theme.png",
+      "image": "/modmania-landing-page/images/ps5_c_theme.png",
       "alt": "Artistic ps5 controller picture."
     }
   ]
