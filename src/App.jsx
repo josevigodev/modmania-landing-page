@@ -9,7 +9,7 @@ import gsap from 'gsap';
 import { ScrollSmoother } from 'gsap/all';
 import { BrandMarquee } from './sections/BrandMarquee';
 import { Footer } from './sections/Footer';
-
+import background from './assets/images/background.png';
 gsap.registerPlugin(ScrollSmoother);
 
 function useSmothScroll() {
@@ -31,7 +31,7 @@ function App() {
       <div className='fixed top-0 left-0 w-full h-dvh blur-3xl brightness-50 pointer-events-none z-0'>
         <img
           className='object-cover object-center w-full h-full'
-          src='/images/background.png'
+          src={background}
           alt='background'
         />
       </div>
