@@ -4,8 +4,8 @@ _ModMania_ is a modern and visually immersive landing page for a fictional compa
 
 📸 Previews
 
-<img src="/desktop.png" width="500"/>
-<img src="/mobile.png" width="200"/>
+<img src="./public/desktop.png" width="500"/>
+<img src="./public/mobile.png" width="200"/>
 s
 
 ## 🖥 Technologies Used
