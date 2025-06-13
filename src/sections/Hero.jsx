@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { useHeroAnimations } from '../hooks/useHeroAnimations';
-import controllerImg from '../assets/images/xbox_h_blue_fire.png';
+import controllerImg from '/images/xbox_h_blue_fire.png';
 
 export function Hero() {
   const containerRef = useRef(null);

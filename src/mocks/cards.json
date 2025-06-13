@@ -13,7 +13,7 @@
       "firstSubtitle": "Still rocking that antique, vanilla look on your PlayStation or Xbox?",
       "secondSubtitle": "We've all been there.",
       "order": false,
-      "image": "../assets/images/xbox_c_theme.png",
+      "image": "/images/xbox_c_theme.png",
       "alt": "Artistic xbox console picture."
     },
     {
@@ -21,7 +21,7 @@
       "firstSubtitle": "You didn't find the perfect design for your setup? Don't even worry, we got you a whole mod customization lab.",
       "secondSubtitle": "Now perfection is up to you.",
       "order": true,
-      "image": "../assets/images/ps5_c_theme.png",
+      "image": "/images/ps5_c_theme.png",
       "alt": "Artistic ps5 controller picture."
     }
   ]
