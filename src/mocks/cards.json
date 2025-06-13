@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "You won't believe the transformation!",
+      "firstSubtitle": "Once you hand in your setup, rest asure, you'll  be carrying something really amazing to home.",
+      "secondSubtitle": "And we always keep our promises.",
+      "order": true,
+      "image": "/public/images/ps5_h_theme.png",
+      "alt": "Artistic ps5 controller picture."
+    },
+    {
+      "title": "Enough with those boring consoles!",
+      "firstSubtitle": "Still rocking that antique, vanilla look on your PlayStation or Xbox?",
+      "secondSubtitle": "We've all been there.",
+      "order": false,
+      "image": "/public/images/xbox_c_theme.png",
+      "alt": "Artistic xbox console picture."
+    },
+    {
+      "title": "We even have a mod lab!",
+      "firstSubtitle": "You didn't find the perfect design for your setup? Don't even worry, we got you a whole mod customization lab.",
+      "secondSubtitle": "Now perfection is up to you.",
+      "order": true,
+      "image": "/public/images/ps5_c_theme.png",
+      "alt": "Artistic ps5 controller picture."
+    }
+  ]
+}

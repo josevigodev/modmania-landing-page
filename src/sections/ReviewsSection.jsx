@@ -1,11 +1,29 @@
 import { Review } from '../components/Review';
 import { firstRow, secondRow } from '../mocks/reviews.json';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
+import { useEffect } from 'react';
+
+gsap.registerPlugin(ScrollTrigger);
 
 export function ReviewsSection() {
+  useEffect(() => {
+    gsap.to('.reviews-title', {
+      duration: 1,
+      filter: 'blur(0px)',
+      scrollTrigger: {
+        trigger: '.reviews-title',
+        start: 'top bottom',
+        end: 'top bottom',
+        scrub: 3,
+      },
+    });
+  }, []);
+
   console.log([...firstRow, ...firstRow]);
   return (
-    <section className='relative mt-40'>
-      <h3 className='text-center text-4xl pt-20 mb-20 md:text-6xl'>
+    <section className='relative'>
+      <h3 className='text-center text-4xl pt-20 mb-20 md:text-6xl blur-2xl reviews-title'>
         The people... <br />
         they seem to love us!!!
       </h3>

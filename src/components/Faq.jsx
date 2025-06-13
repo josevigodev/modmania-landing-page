@@ -1,12 +1,12 @@
-export function Faq({ question, answer, id, openIndex, setOpenIndex }) {
+export function Faq({ question, answer, id, openIndex, setOpenIndex, even }) {
   return (
-    // <details className='relative overflow-hidden select-none bg-[#48e2] rounded-md flex-1 faq-details'>
-    //   <summary className='p-4 marker:content-none'>{question}</summary>
-    //   <p className='text-lg border-t-1 m-4 mt-0 pt-4'>{answer}</p>
-    // </details>
-    <div className='relative overflow-hidden select-none bg-[#48e2] rounded-md flex-1'>
+    <div
+      className={`relative overflow-hidden select-none bg-[#48e2] rounded-md flex-1 opacity-0 faq ${
+        even ? '-translate-x-100' : 'translate-x-100'
+      }`}
+    >
       <button
-        className={`text-lg relative p-4 w-full text-start faq-question ${
+        className={`text-lg relative cursor-pointer p-4 w-full text-start faq-question ${
           openIndex === id ? 'rotate-before' : ''
         }`}
         onClick={() => setOpenIndex(openIndex === id ? null : id)}

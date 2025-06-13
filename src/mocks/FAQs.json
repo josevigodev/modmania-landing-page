@@ -3,32 +3,38 @@
     {
       "id": 0,
       "question": "What is MODMANIA?",
-      "answer": "MODMANIA is a custom console design brand that transforms your PlayStation or Xbox with personalized modifications, including colors, textures, lighting, and exclusive accesories."
+      "answer": "MODMANIA is a custom console design brand that transforms your PlayStation or Xbox with personalized modifications, including colors, textures, lighting, and exclusive accesories.",
+      "even": true
     },
     {
       "id": 1,
       "question": "Are the mods just skins or full hardware changes?",
-      "answer": "We offer both! Choose between high-quality vinyl skins or full custom shell replacements, LED, lighting, and controller modifications."
+      "answer": "We offer both! Choose between high-quality vinyl skins or full custom shell replacements, LED, lighting, and controller modifications.",
+      "even": false
     },
     {
       "id": 2,
       "question": "Will modding my console void the warranty?",
-      "answer": "Yes, in most cases, any physical modification may void your manufacturer warranty. We recommend only modding out-of-warranty consoles or doing it after the warranty expires."
+      "answer": "Yes, in most cases, any physical modification may void your manufacturer warranty. We recommend only modding out-of-warranty consoles or doing it after the warranty expires.",
+      "even": true
     },
     {
       "id": 3,
       "question": "Can I send my own design or idea?",
-      "answer": "Absolutely. We support custom requests. Just upload your concept and our design team will work with you to bring it to life."
+      "answer": "Absolutely. We support custom requests. Just upload your concept and our design team will work with you to bring it to life.",
+      "even": false
     },
     {
       "id": 4,
       "question": "Do you mod controllers as well?",
-      "answer": "Yes! We customize controllers with new shells, RGB lighting, button remapping, and paint finishes that match your console."
+      "answer": "Yes! We customize controllers with new shells, RGB lighting, button remapping, and paint finishes that match your console.",
+      "even": true
     },
     {
       "id": 5,
       "question": "How long does the modding procces take?",
-      "answer": "Depending on the complexity of your request, it typically takes 5-10 bussiness days from the moment we receive your console."
+      "answer": "Depending on the complexity of your request, it typically takes 5-10 bussiness days from the moment we receive your console.",
+      "even": false
     }
   ]
 }
