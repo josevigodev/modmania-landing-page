@@ -2,12 +2,15 @@
   "name": "modmania-landing-page",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://josevigodev.github.io/modmania-landing-page/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.8",
