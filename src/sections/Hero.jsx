@@ -33,7 +33,7 @@ export function Hero() {
       </div>
       <img
         className='max-w-96 z-20 hero-image'
-        src='/public/images/xbox_h_blue_fire.png'
+        src='../assets/images/xbox_h_blue_fire.png'
         alt='blue fire xbox controller'
       />
       <h3 className='mt-14 text-center relative text-4xl font-medium md:text-5xl phrase-h3 opacity-0'>
