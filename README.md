@@ -27,8 +27,7 @@ _ModMania_ is a modern and visually immersive landing page for a fictional compa
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/josevigodev/modmania-landing-page
-.git
+git clone https://github.com/josevigodev/modmania-landing-page.git
 cd modmania-landing-page
 npm install
 ```
