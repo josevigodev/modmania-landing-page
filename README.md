@@ -22,6 +22,35 @@ _ModMania_ is a modern and visually immersive landing page for a fictional compa
 - 🎨 _Dark Mode Aesthetic_: Clean layout with strong contrast and vivid accents.
 - 🧩 _Modular Architecture_: All logic and effects (including animations) are extracted into custom React hooks.
 
+## Setup
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/josevigodev/modmania-landing-page
+.git
+cd modmania-landing-page
+npm install
+```
+
+Run de app localy:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
 🧾 License
 
 This project is for educational and portfolio use. All fictional content is created for design and development practice.
